@@ -3,8 +3,8 @@ from quantenschaltungengpus.paulimatrizen import paulix, pauliy, pauliz
 
 
 print(hello())
-#print(paulix())
-#print(pauliy())
-#print(pauliz())
+# print(paulix())
+# print(pauliy())
+# print(pauliz())
 
-print(f'{paulix()@pauliy()}={1j*pauliz()}')
+print(f"{paulix()@pauliy()}={1j*pauliz()}")
