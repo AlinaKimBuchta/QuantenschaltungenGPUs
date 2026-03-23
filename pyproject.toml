@@ -10,6 +10,10 @@ requires-python = ">=3.13"
 dependencies = [
     "ipykernel>=7.2.0",
     "numpy>=2.4.3",
+    "pycheck>=0.1",
+    "pyright>=1.1.408",
+    "ruff>=0.15.7",
+    "ty>=0.0.24",
 ]
 
 [build-system]
