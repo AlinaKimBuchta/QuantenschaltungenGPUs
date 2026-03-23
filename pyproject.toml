@@ -7,7 +7,10 @@ authors = [
     { name = "Alina", email = "akibu06@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "ipykernel>=7.2.0",
+    "numpy>=2.4.3",
+]
 
 [build-system]
 requires = ["uv_build>=0.10.12,<0.11.0"]
